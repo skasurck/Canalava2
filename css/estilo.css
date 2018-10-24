@@ -99,7 +99,14 @@ body {
 .iconos {
     font-size: 4rem;
     color: #004675;
+    -webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
+.iconos:hover{
+ -webkit-transform: scale(1.10);
+    transform: scale(1.10);   
+}
+
 
 /*seccion de sectores*/
 .iconos_sectores {
