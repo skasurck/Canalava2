@@ -1,0 +1,190 @@
+/*fuentes importadas*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*Estilos General*/
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*navbar canalava*/
+.nav-home {
+    background-color: #ffff;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    -webkit-box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+@media (min-width:900px) {
+    .nav-home {
+        height: 65px;
+    }
+}
+
+.img-logo {
+    width: 45%;
+    height: 30%;
+}
+
+.ul-nav-home-canalava {
+    background-color: #ffff;
+}
+
+.link-nav-canalava {
+    color: #004675;
+}
+
+.link-nav-canalava:hover {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
+    background-image: linear-gradient(to bottom right, #004675, #05b0db);
+    opacity: 1;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.btn-outline-info {
+    color: #004675;
+    border-color: #004675;
+}
+
+.btn-outline-info:hover {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
+    background-image: linear-gradient(to bottom right, #004675, #05b0db);
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgba(0,69,116,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+/*slider home*/
+.contenedor-slider{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-info{
+     background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
+     background-image: linear-gradient(to bottom right, #004675, #05b0db);
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.img-slider-home {
+    margin-top: 10vh;
+    height: 90vh;
+}
+
+@media (max-width: 768px) {
+    .img-slider-home {
+        margin-top: 20vh;
+        height: 60vh;
+    }
+}
+.texto-slider{
+     background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
+     background-image: linear-gradient(to bottom right, #004675, #05b0db);
+    border-radius: 2%;
+    opacity: 0.7;
+}
+
+/*seccion de noticias*/
+.iconos {
+    font-size: 4rem;
+    color: #004675;
+}
+
+/*seccion de sectores*/
+.iconos_sectores {
+    font-size: 2.5rem;
+    color: #004675;
+}
+
+/*formulario*/
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #103254;
+}
+.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;   
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.form-group input,
+.form-group textarea {
+    padding: 20px;
+}
+.form-group input.form-control {
+    height: auto;
+}
+.form-group textarea.form-control {
+    height: 150px;
+}
+.form-control:focus {
+    border-color: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/*footer*/
+
+footer {
+    margin-top: 10%;
+    padding: 25px 0;
+    text-align: center;
+}
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+}
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+    
+}
+.quicklinks {
+	text-decoration:none;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #103254;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}

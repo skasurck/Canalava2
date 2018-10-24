@@ -1,0 +1,35 @@
+
+.img-hover{
+    width: 100%;
+    height: 40vh;
+}
+
+.card{
+    overflow: hidden;
+  
+}
+.card-title{
+    text-align: center
+}
+.card-body{
+  
+}
+.img-hover {
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+.img-hover:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    z-index: 88;
+}
+.boton_tarjeta{
+    margin-left: 30%;    
+}
+.modal-title{
+    text-align: center;
+}
+.text-muted{
+    text-align: center;
+}
