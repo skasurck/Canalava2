@@ -80,33 +80,33 @@
         <!-- /form -->
         <div class="row">
             <div class="col-12">
-                <form>
+                <form name="formAfiliaciones" method="post" action="php/afiliate.php">
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputName">Nombre(s)</label>
-                            <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                            <input type="text" name="nombre" required class="form-control" id="inputName" placeholder="Nombre">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputApellidos">Apellidos</label>
-                            <input type="text" class="form-control" id="inputApellidos" placeholder="Apellidos">
+                            <input type="text" name="apellido" class="form-control" id="inputApellidos" required placeholder="Apellidos">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputRFC">Razon Social</label>
-                        <input type="text" class="form-control" id="inputRFC" placeholder="RFC">
+                        <input type="text" class="form-control" name="razon"  id="inputRFC" placeholder="RFC">
                     </div>
                     <div class="form-group">
                         <label for="inputEmail">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@empresa.com">
+                        <input type="email" class="form-control" name="email" required id="inputEmail" placeholder="ejemplo@empresa.com">
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputTel">Telefono</label>
-                            <input type="tel" class="form-control" id="inputTel" placeholder="5522123486">
+                            <input type="tel" class="form-control" name="telefono" id="inputTel" placeholder="5522123486">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="inputWeb">Pagina Web</label>
-                            <input type="text" class="form-control" id="inputWeb" placeholder="www.ejemplo.com">
+                            <input type="text" class="form-control" name="pagina" id="inputWeb" placeholder="www.ejemplo.com">
                         </div>
                     </div>
                     <div class="form-row">
@@ -114,7 +114,7 @@
                             <button type="submit" class="btn btn-info btn-lg">Enviar</button>
                         </div>
                         <div class="form-group col-md-6">
-
+                            <div class="g-recaptcha" data-sitekey="6LfMInEUAAAAAOW1Lct3ZOvDts2tcDPsHgzUzJQG"></div>
                         </div>
                     </div>
                 </form>
