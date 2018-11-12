@@ -195,3 +195,6 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
+.Mayusculas{
+     text-transform: uppercase;
+}
