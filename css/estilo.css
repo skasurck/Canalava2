@@ -5,6 +5,7 @@
 /*Estilos General*/
 body {
     font-family: 'Raleway', sans-serif;
+   
 }
 
 /*navbar canalava*/
@@ -15,17 +16,23 @@ body {
     width: 100%;
     -webkit-box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.5);
+      height: 200px;
+    
 
 }
 
 @media (min-width:900px) {
     .nav-home {
-        height: 65px;
+        height: 12%;
+        max-height: 100px;
+    }
+    .img-logo {
+        margin-left: 25%;
     }
 }
 
 .img-logo {
-    width: 45%;
+    width: 50%;
     height: 30%;
 }
 
@@ -70,7 +77,6 @@ body {
     display: inline-block;
     text-align: center;
 }
-
 .btn-info{
      background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
      background-image: linear-gradient(to bottom right, #004675, #05b0db);
@@ -78,22 +84,52 @@ body {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 .img-slider-home {
-    margin-top: 10vh;
+    
     height: 90vh;
 }
-
+.logo-texto-slider{
+    margin-top: 5%;
+    max-width: 400px;
+    width: 40%;
+   
+}
 @media (max-width: 768px) {
     .img-slider-home {
-        margin-top: 20vh;
+        
         height: 60vh;
     }
+}
+.texto-slider-1{  
+    height: 100%;
+    width: 50%; 
+    top: 1px;
 }
 .texto-slider{
      background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
      background-image: linear-gradient(to bottom right, #004675, #05b0db);
     border-radius: 2%;
-    opacity: 0.7;
+    opacity: 0.9;
+    margin: auto;
+    font-size: 2rem;   
 }
+.texto-slider-2{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+     background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
+     background-image: linear-gradient(to bottom right, #004675, #05b0db);
+}
+.texto-slider-3{
+      bottom: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+     background-image: -webkit-gradient(linear, left top, right bottom, from(#004675), to(#05b0db));
+     background-image: linear-gradient(to bottom right, #004675, #05b0db);
+}
+
+
 
 /*seccion de noticias*/
 .iconos {
@@ -106,14 +142,11 @@ transition: all .2s ease-in-out;
  -webkit-transform: scale(1.10);
     transform: scale(1.10);   
 }
-
-
 /*seccion de sectores*/
 .iconos_sectores {
     font-size: 2.5rem;
     color: #004675;
 }
-
 /*formulario*/
 .section-heading {
     margin-top: 0;
