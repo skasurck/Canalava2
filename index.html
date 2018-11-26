@@ -74,7 +74,7 @@
     <!-- inicio slider -->
     <div class="container-fluid contenedor-slider">
         <br><br><br><br>
-        <div id="carouselExampleIndicators" class="carousel slide slider-home" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide slider-home" data-ride="carousel" data-pause="hover">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -105,10 +105,29 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 img-slider-home" src="img/slider/Ultimo-curso-2019.jpg" alt="Third slide">
-                     <div class="carousel-caption d-none d-md-block texto-slider-3">
-                        <h1>Curso de introducción al servicio de lavanderias</h1>
-                      <a href="tel:55146101 " class="btn btn-info btn-lg active btn-slider" role="button" aria-pressed="true">llamanos </a>
+                     <div class="carousel-caption d-none d-md-block texto-slider-3 ml-auto">
+                     
+                        <h1>Último Curso del 2018</h1>
+                        <h2>Introducción al Servicio de Lavandería</h2><hr>
+                        <h3>26-29 NOVIEMBRE 2018</h3>
+                        <p class="text-center"><i class="fas fa-map-marker-alt"></i> Río Danubio 38 Col. Cuauhtémoc, Del. Cuauteémoc, CDMX CP. 06500 </p>
+                        <hr style="background-color: white">
+                        <h5 >Contactanos para mas informes</h5>
+                        <p class="text-muted"></p>
+                         <form name="formcurso"  method="POST" action="php/form-rapido.php">
+                          <div class="form-group">
+                            <label for="formGroupExampleInput">Nombre</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nombre" name="nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="formGroupExampleInput2">Correo</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="correo" name="email">
+                          </div>
+                           <button type="submit" class="btn btn-info">Enviar Mensaje</button> <span>&nbsp O &nbsp</spa> <a href="tel:55146101 " class="btn btn-info  active btn-slider" role="button" aria-pressed="true">llamanos </a>
+                        </form>
+                       
                         
+                      
                      </div>
                 </div>
             </div>
@@ -130,7 +149,7 @@
                     <div class="row">
                         <div class="card-deck  scrollflow -slide-top -opacity">
                             <div class="card">
-                                <a href="cursos.html"><img class="card-img-top" src="img/servicio-de-lavanderia.jpg" alt="Card image cap"></a>
+                                <a href="cursos.html"><img class="card-img-top" src="img/amor.jpg" alt="Card image cap"></a>
                                 <div class="card-body">
                                    <a href="cursos.html"> <h5 class="card-title">Último Curso del año </h5></a>
                                     <p class="card-text">"INTRODUCCION AL SERVICIO DE LAVANDERIAS". Del lunes 26 al jueves 29 de noviembre de 2018 DE LAS 14:00 A LAS 18:00 HORAS

@@ -12,7 +12,7 @@ $header .= "X-Mailer: PHP/" .phpversion() . "\r\n";
 $header .= "Mine-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
-$mensaje = "Este mensaje fue enviado por " . Snombre . ",\r\n";
+$mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
 $mensaje .= "Apellido : " . $apellido . ",\r\n";
 $mensaje .= "RFC : " . $rfc . ",\r\n";
 $mensaje .= "Asunto: " . $asunto . ",\r\n";
